@@ -12,7 +12,7 @@ import os
 import re
 from datetime import datetime
 from pathlib import Path
-
+import string
 import ollama
 import pandas as pd
 
@@ -111,8 +111,10 @@ def build_user_content(sentence1: str, sentence2: str) -> str:
 
 
 def normalize_prediction(prediction: str) -> str:
+    extra_punctuation = "‘’´`“”„«»"
+    chars_to_remove = string.punctuation + extra_punctuation
     """Normalize model output for comparison against gold labels."""
-    return str(prediction).strip().lower()
+    return str(prediction).strip(chars_to_remove).lower()
 
 
 # ----------------
