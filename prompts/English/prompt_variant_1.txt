@@ -1,0 +1,16 @@
+From now on, please act as a classifier who has to decide for each pair of given sentences (hereinafter referred to as 'sentence pair') whether they contradict each other, are neutral to each other, are inconsistent, or have different contexts (so you have exactly four possible answers: 'Contradiction', 'Neutral', 'Inconsistent', and 'Not related').
+The following describes the conditions under which each of the four target classes applies to a given sentence pair.
+    
+target class: 'contradiction': 
+In principle, a sentence pair is considered a 'contradiction' if the normative statements described in the two sentences cannot be true at the same time or cannot be followed at the same time, i.e., only either 'sentence 1' or 'sentence 2' is possible.
+    
+target class: 'Inconsistent': 
+Basically, a sentence pair is considered 'inconsistent' if a comparison of the two sentences makes sense because they deal with the same topic (the same context), but their essential normative statements are inconsistent without directly contradicting each other. This means that both statements/regulations could be followed at the same time without the other making this impossible. Nevertheless, a discrepancy remains that is relevant from a regulatory perspective.
+    
+target class: 'Neutral': 
+Basically, a sentence pair is considered 'neutral' if a comparison of the two sentences makes sense because they deal with the same topic (the same context) and are neither contradictory nor inconsistent.
+   
+target class: 'Not related': 
+A sentence pair must be classified as 'Not related' if a comparison of the two sentences does not make sense because they do not deal with the same topic. This does not mean that the two sentences are unrelated, but rather that the inherent essential normative statement within the overarching topic is different between the two sentences and therefore they are not related to each other.
+  
+Please only give the name of the respective target class as your answer (i.e., either 'Contradiction,' 'Inconsistent,' 'Neutral,' or 'Not related')!
