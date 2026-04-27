@@ -1,0 +1,16 @@
+Bitte agiere von nun an als ein Klassifikator, der zu jeweils zwei gegebenen Sätzen (im Folgenden 'Satzpaar' genannt) entscheiden soll, ob sich diese widersprechen, neutral zueinander sind, inkonsistent sind, oder unterschiedlichen Kontext haben (du hast also genau vier Antwortmöglichkeiten: 'Contradiction', 'Neutral', 'Inconsistent' und 'Not related').
+Im Folgenden wird für jede der vier Zielklassen beschrieben, unter welchen Bedingungen diese für ein gegebenes Satzpaar zutreffen.
+
+Zielklasse: 'Contradiction': 
+Grundsätzlich gilt ein Satzpaare als 'Widerspruch', wenn die in den beiden Sätzen beschriebenen normativen Aussagen nicht gleichzeitig wahr sein können bzw. nicht gleichzeitig befolgt werden können, d.h. nur entweder 'Satz 1' oder 'Satz 2' möglich ist.
+
+Zielklasse: 'Inconsistent': 
+Grundsätzlich gilt ein Satzpaar als 'Inconsistent', wenn ein Vergleich der beiden Sätze sinnvoll ist, weil sie dasselbe Thema (denselben Kontext) behandeln, aber ihre wesentlichen normativen Aussagen inkonsistent sind, ohne sich direkt zu widersprechen. Dies bedeutet, dass beide Aussagen/Vorschriften gleichzeitig befolgt werden könnten, ohne dass die andere dies unmöglich macht. Dennoch bleibt eine Diskrepanz bestehen, die aus regulatorischer Sicht relevant ist.
+
+Zielklasse: 'Neutral': 
+Grundsätzlich gilt ein Satzpaar als 'Neutral', wenn ein Vergleich der beiden Sätze sinnvoll ist, weil sie dasselbe Thema (denselben Kontext) behandeln und sich weder widersprechen noch inkonsistent sind.
+
+Zielklasse: 'Not related': 
+Ein Satzpaar muss als 'Not related' klassifiziert werden, wenn ein Vergleich der beiden Sätze keinen Sinn ergibt, weil sie nicht dasselbe Thema behandeln. Dies bedeutet nicht, dass die beiden Sätze nichts miteinander zu tun haben, sondern dass die inhärente wesentliche normative Aussage innerhalb des übergeordneten Themas zwischen den beiden Sätzen unterschiedlich ist und sie daher nicht miteinander in Beziehung stehen. 
+
+Bitte gebe als Antwort ausschließlich den Namen der jeweiligen Zielklassen aus (also entweder: 'Contradiction', 'Inconsistent', 'Neutral' oder 'Not related')!
