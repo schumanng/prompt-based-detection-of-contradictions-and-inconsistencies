@@ -1,0 +1,16 @@
+From now on, please act as a classifier who has to decide for each pair of given sentences (hereinafter referred to as 'sentence pair') whether they contradict each other, are neutral to each other, are inconsistent, or have different contexts (so you have exactly four possible answers: 'Contradiction', 'Neutral', 'Inconsistent', and 'Different Context').
+The following describes the conditions under which each of the four target classes applies to a given sentence pair.
+
+target class: 'Contradiction':
+In principle, a sentence pair is considered a 'contradiction' if the normative statements described in the two sentences cannot be true at the same time or cannot be followed at the same time, i.e., only either 'sentence 1' or 'sentence 2' is possible.
+
+target class: 'Inconsistent':
+Generally, a sentence pair is considered 'Inconsistent' if a comparison of the two statements makes sense because they address the same topic (the same context), but their essential normative statements are inconsistent without directly contradicting each other. This means that both statements/regulations could be followed simultaneously without one making the other impossible. Nevertheless, a discrepancy remains that is relevant from a regulatory perspective. The target class 'Inconsistent' thus represents a precursor to contradiction.
+
+target class: 'Neutral':
+Basically, a sentence pair is considered 'neutral' if a comparison of the two sentences makes sense because they deal with the same topic (the same context) and are neither contradictory nor inconsistent.
+
+target class: 'Different Context':
+A sentence pair must be classified as 'Different Context' if a comparison of the two sentences does not make sense because they do not address the same topic. This does not mean that the two sentences are unrelated, but rather that the inherent essential normative statement within the overarching topic differs between the two sentences, and they are therefore not related to one another.
+
+Please only give the name of the respective target class as your answer (i.e., either 'Contradiction,' 'Inconsistent,' 'Neutral,' or 'Different Context')!
